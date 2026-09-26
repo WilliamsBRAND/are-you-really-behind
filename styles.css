@@ -154,16 +154,11 @@ a { color: inherit; }
   letter-spacing: -0.01em;
   min-height: 2.75rem;
 }
-.wordmark__q {
-  display: grid;
-  place-items: center;
-  width: 1.75rem;
-  height: 1.75rem;
-  border: 1px solid var(--ink);
-  border-radius: 50%;
-  font-size: 0.85rem;
-  line-height: 1;
-  padding-bottom: 0.1em;
+.wordmark__mark {
+  display: block;
+  width: auto;
+  height: 1.65rem;
+  flex: none;
 }
 @media (max-width: 400px) { .wordmark__text { display: none; } }
 
