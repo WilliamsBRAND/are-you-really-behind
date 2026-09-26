@@ -1,0 +1,12 @@
+{
+  "name": "are-you-really-behind",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Registration site for the Are You Really Behind? event",
+  "scripts": {
+    "build": "echo static-site-no-build-step",
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}
