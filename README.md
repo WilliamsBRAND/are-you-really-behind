@@ -19,10 +19,10 @@ originals are kept in `assets/_original/`.
 
 | File | Size | Used for |
 |---|---|---|
-| `flyer.jpeg` | 864×1080 | the event flyer in the CTA section |
-| `event-share.jpg` | 1200×630 | link preview on WhatsApp/LinkedIn/X (built from the flyer) |
+| `flyer-jd.jpeg` | 1440×1800 | updated event flyer in the CTA section |
+| `event-share-jd.jpg` | 1200×630 | updated link preview on WhatsApp/LinkedIn/X (full flyer preserved) |
 | `oladotun.jpg` | 720×900 | host portrait |
-| `opeyemi.jpg` | 1080×1350 | speaker portrait |
+| `jesudamilare.jpg` | 1000×1000 | Jesudamilare Adesegun-David speaker portrait, displayed at 4:5 |
 | `frank.jpg` | 1080×1350 | speaker portrait (recompressed, 810 KB → 258 KB) |
 
 Portraits are cropped to 4:5 so the three cards line up. To re-crop one, edit
@@ -124,10 +124,12 @@ column: Instagram, WhatsApp, LinkedIn, X, Direct, or Other.
 
 ## Notes
 
-- Speaker cards carry **Instagram only**. Oladotun's full set (Instagram,
+- Speaker cards link to **Instagram or LinkedIn**. Oladotun's full set (Instagram,
   LinkedIn, YouTube, X) is in the footer, as icons.
-- Opeyemi Adesina's card links to **@adesinaassets**, the Adesina Assets
-  account. Swap it in `index.html` if you want a different personal handle.
+- Jesudamilare Adesegun-David replaces Opeyemi Adesina and links to his supplied
+  LinkedIn profile. His designation and biography were checked against
+  https://www.leadwithjd.com/about and https://www.ennovatelab.com/about-us.
+  The previous speaker images and flyer remain on disk as historical assets.
 - Text typed into the form is stripped of leading `=`, `+`, `-`, `@` before it
   reaches the sheet, so nothing can execute as a spreadsheet formula.
 - After a successful registration the page sends people to WhatsApp in the
@@ -148,4 +150,3 @@ column: Instagram, WhatsApp, LinkedIn, X, Direct, or Other.
 The Sheets suite stubs the Google API with a real RSA key, so the request
 shapes are proven — but no row has been written to a real sheet yet. That needs
 the live credentials below.
-

@@ -7,7 +7,7 @@ window.SITE_CONFIG = {
   apiEndpoint: "/api/register",
 
   // The WhatsApp group invite link for the event.
-  whatsappGroupUrl: "https://chat.whatsapp.com/D443DNdaAM8CvQvgQuUs49?mode=gi_t",
+  whatsappGroupUrl: "https://chat.whatsapp.com/CICcfc5S05aJePFsGYkURv?s=cl&p=a&mlu=4&ilr=4",
 
   // Milliseconds to wait on the success screen before opening WhatsApp.
   whatsappAutoRedirectMs: 3000,
